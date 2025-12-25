@@ -1,20 +1,20 @@
 
-# 🌐 Networking for Cybersecurity Journey
+#  Networking for Cybersecurity Journey
 
 > **A focused, traffic-first roadmap to mastering networking for cybersecurity and web hacking.**
 
 This repository documents my **2-month structured journey** to understanding how network traffic actually works — from browser requests to raw packets — using **real tools, real traffic, and zero unnecessary theory**.
 
-🎯 **End Goal:**
+ **End Goal:**
 Understand HTTP and network traffic deeply enough to move confidently into **web application hacking and penetration testing**.
 
 This is **not CCNA**.
 It’s built for **security mindset first**.
 
 
-## 🟦 Month 1 — Foundations + Real Traffic
+##  Month 1 — Foundations + Real Traffic
 
-### 📘 Weeks 1–2: Networking Fundamentals
+###  Weeks 1–2: Networking Fundamentals
 
 **Objective:** Build a clear mental model of how data moves across the internet.
 
@@ -34,17 +34,17 @@ It’s built for **security mindset first**.
 * Deep subnetting drills
 
 
-## 🟦 Month 2 — Packet Analysis (Core Cybersecurity Skill)
+##  Month 2 — Packet Analysis (Core Cybersecurity Skill)
 
-### 🔍 Weeks 3–5: Practical Packet Analysis (Wireshark)
+###  Weeks 3–5: Practical Packet Analysis (Wireshark)
 
 **Objective:** Learn to *read* network traffic like a security analyst.
 
-📘 **Resource Used:**
+**Resource Used:**
 
 * *Practical Packet Analysis* — Chris Sanders
 
-🧪 **Hands-on Focus**
+ **Hands-on Focus**
 
 * Keep Wireshark open at all times
 * Capture real traffic:
@@ -54,7 +54,7 @@ It’s built for **security mindset first**.
   * File downloads
   * Failed connections
 
-🔎 **What to Focus On**
+ **What to Focus On**
 
 * TCP handshakes & flags
 * HTTP requests and responses
@@ -67,11 +67,11 @@ It’s built for **security mindset first**.
 
 ---
 
-### 🧠 Week 6: Packet Tracer (Concept Reinforcement)
+###  Week 6: Packet Tracer (Concept Reinforcement)
 
 **Objective:** Visually understand where traffic comes from and where it goes.
 
-🧪 **What to Do**
+**What to Do**
 
 * Simple LAN setup
 * Router + NAT
@@ -84,9 +84,9 @@ It’s built for **security mindset first**.
 
 ---
 
-## 🟦 Final Phase — CLI Reality
+##  Final Phase — CLI Reality
 
-### 🖥️ Weeks 7–8: tcpdump
+###  Weeks 7–8: tcpdump
 
 **Objective:** Be comfortable analyzing traffic without a GUI.
 
@@ -101,14 +101,14 @@ It’s built for **security mindset first**.
 * Saving `.pcap` files
 * Opening tcpdump captures in Wireshark
 
-💡 **Why tcpdump Matters**
+ **Why tcpdump Matters**
 
 * Servers don’t have GUIs
 * Widely used in pentesting & cloud environments
 * Forces raw, protocol-level thinking
 
 
-## 📚 Resources Used
+##  Resources Used
 
 ### 🎥 Video Learning
 
@@ -130,7 +130,7 @@ It’s built for **security mindset first**.
 * **Browser Developer Tools** — Inspecting HTTP traffic
 
 
-## 📌 Why This Repository Exists
+##  Why This Repository Exists
 
 Most networking courses:
 
@@ -144,7 +144,4 @@ This repository:
 * Is **cybersecurity-focused**
 * Prioritizes **understanding over memorization**
 
----
 
-
-Just tell me ⚡
