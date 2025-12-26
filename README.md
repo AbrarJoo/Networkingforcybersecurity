@@ -112,7 +112,7 @@ It’s built for **security mindset first**.
 
 ### 🎥 Video Learning
 
-* **YouTube — Networking Fundamentals Course**
+* **YouTube — Computer Networking Tutorial - Bits and Bytes of the Networking [12 HOURS]**
   Focused strictly on cybersecurity-relevant topics:
 
   * TCP/IP, DNS, HTTP/HTTPS
