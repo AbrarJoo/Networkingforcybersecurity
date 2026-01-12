@@ -1,223 +1,174 @@
 
-🌐 Networking for Cybersecurity
+# 🌐 Networking for Cybersecurity
 
-> A traffic-first, security-focused repository for mastering core networking concepts through real packet analysis.
+> A **traffic-first, security-focused** repository for mastering core networking concepts through **real packet analysis**.
 
+This repository contains my coursework, hands-on labs, notes, and observations while learning **networking specifically for cybersecurity**, with a strong emphasis on **how network traffic moves, looks, and behaves on the wire**.
 
-
-This repository contains my coursework, hands-on exercises, notes, and tools used while learning networking specifically for cybersecurity — with a strong emphasis on how network traffic moves, looks, and behaves on the wire.
-
-🚫 This is not CCNA
-✅ This is foundational networking for security analysis and pentesting
-
+🚫 **Not CCNA**
+🚫 **Not network engineering**
+✅ **Foundational networking for security analysis, detection, and pentesting**
 
 ---
 
-🎯 Purpose of This Repository
+## 🎯 Purpose of This Repository
 
-The goal of this repository is to build a strong, practical networking foundation required for:
+The goal of this repository is to build a **practical networking foundation** required for:
 
-Network traffic analysis
+* Network traffic analysis
+* Security monitoring & SOC work
+* Intrusion detection & investigation
+* Penetration testing fundamentals
 
-Security monitoring
+The focus is on:
 
-Intrusion detection
+* **Protocol behavior**
+* **Packet flow**
+* **Traffic patterns**
 
-Penetration testing fundamentals
-
-
-The focus is on protocol behavior, packet flow, and traffic patterns, not application-level details.
-
-
----
-
-📚 Learning Path Followed
-
-This repository follows a theory + packet-level practice approach.
-
+—not hardware, certifications, or application development.
 
 ---
 
-🧠 Theory Foundation
+## 📚 Learning Approach
 
-🎥 Primary Theory Resource
+This repository follows a **theory + packet-level practice** model.
 
-Bits and Bytes of Computer Networking
-📺 YouTube Course (12+ hours):
-👉 https://youtu.be/PhjHXeMNpp8
-
-This course is used strictly for networking theory, including:
-
-OSI vs TCP/IP (high-level, security perspective)
-
-IP addressing and ports
-
-TCP vs UDP
-
-DNS fundamentals
-
-How data moves across networks
-
-End-to-end packet flow across the internet
-
-
-⚠️ Intentionally skipped:
-
-Cable types
-
-Enterprise hardware
-
-Deep subnetting drills
-
-
+Theory explains *what should happen*.
+Wireshark shows *what actually happens*.
 
 ---
 
-🔬 Practical Networking & Packet Analysis
+## 🧠 Theory Foundation
 
-📘 Primary Practice Resource
+### 🎥 Primary Theory Resource
 
-Practical Packet Analysis — Chris Sanders
+**Bits and Bytes of Computer Networking**
+📺 YouTube Course (12+ hours)
+👉 [https://youtu.be/PhjHXeMNpp8](https://youtu.be/PhjHXeMNpp8)
 
-This book is the backbone of the hands-on portion, focused on learning how to:
+Used strictly for **networking fundamentals from a security perspective**, including:
 
-Capture and analyze real network traffic
+* OSI vs TCP/IP (conceptual, not exam-driven)
+* IP addressing and ports
+* TCP vs UDP behavior
+* DNS fundamentals
+* How data moves across networks
+* End-to-end packet flow across the internet
 
-Understand packet structure and protocol behavior
+### ⚠️ Intentionally Skipped
 
-Follow conversations and flows
-
-Identify normal vs abnormal traffic patterns
-
-
-
----
-
-🧪 Tools Used
-
-Wireshark — Primary packet capture and analysis tool
-
-Cisco Packet Tracer — Visualizing network topology and traffic flow
-
-
+* Cable types
+* Enterprise hardware
+* Deep subnetting drills
+* Vendor-specific configurations
 
 ---
 
-📅 Roadmap Overview
+## 🔬 Practical Networking & Packet Analysis
 
-🟢 Phase 1 — Networking Foundations
+### 📘 Primary Hands-On Resource
 
-OSI vs TCP/IP (conceptual)
+**Wireshark Labs — Kurose & Ross**
+👉 [https://gaia.cs.umass.edu/kurose_ross/wireshark.php](https://gaia.cs.umass.edu/kurose_ross/wireshark.php)
 
-IP addresses and ports
+These labs form the **core of this repository** and are used to:
 
-TCP vs UDP behavior
+* Capture and analyze **real network traffic**
+* Understand **packet structure and protocol behavior**
+* Analyze:
 
-DNS resolution basics
+  * TCP connections and flags
+  * UDP behavior
+  * DNS queries and responses
+  * IP fragmentation and routing behavior
+* Follow conversations and traffic flows
+* Distinguish **normal vs abnormal traffic**
 
-How packets travel across networks
-
-
-
----
-
-🔵 Phase 2 — Packet Analysis with Wireshark
-
-Capturing real network traffic
-
-Analyzing:
-
-TCP handshakes and flags
-
-DNS queries and responses
-
-Session establishment and teardown
-
-
-Understanding headers and metadata
-
-Following streams and conversations
-
-
-❌ Memorizing every field
-✅ Understanding why traffic behaves the way it does
-
+❌ Memorizing protocol fields
+✅ Understanding **why traffic behaves the way it does**
 
 ---
 
-🟣 Phase 3 — Packet Tracer (Concept Reinforcement)
+## 🧪 Tools Used
 
-Packet Tracer is used only for simple exercises, to visually reinforce:
+* **Wireshark** — Primary and central tool
 
-Basic LAN setups
+  * Packet capture
+  * Flow analysis
+  * Protocol inspection
 
-Routers and switching behavior
-
-NAT placement
-
-How traffic flows between devices and networks
-
-
-> Packet Tracer exists here to answer one question:
-“Where is this traffic coming from, and where is it going?”
-
-
-
+> No simulators.
+> No fake traffic.
+> Real packets only.
 
 ---
 
-📂 What This Repository Contains
+## 📅 Roadmap Overview
 
-📄 Networking theory notes
+### 🟢 Phase 1 — Networking Foundations
 
-🧪 Wireshark packet analysis labs
-
-🌐 Packet Tracer mini-exercises
-
-📊 Observations on traffic behavior and flows
-
-
+* OSI vs TCP/IP (security perspective)
+* IP addresses and ports
+* TCP vs UDP behavior
+* DNS resolution basics
+* How packets traverse networks
 
 ---
 
-🧠 Philosophy Behind This Repo
+### 🔵 Phase 2 — Packet Analysis with Wireshark
+
+* Capturing real traffic
+* Analyzing:
+
+  * TCP handshakes, retransmissions, resets
+  * DNS queries, responses, and failures
+  * Session establishment and teardown
+* Understanding headers and metadata
+* Following streams and conversations
+
+> Focus: **Behavior, intent, and anomalies in traffic**
+
+---
+
+## 📂 What This Repository Contains
+
+* 📄 Networking theory notes (security-focused)
+* 🧪 Wireshark packet analysis labs
+* 📊 Observations on protocol behavior and traffic patterns
+* 🧠 Security-driven interpretations of network activity
+
+---
+
+## 🧠 Philosophy Behind This Repo
 
 Most networking resources:
 
-Are exam-oriented
-
-Overemphasize hardware
-
-Delay real traffic exposure
-
+* Are exam-oriented
+* Focus on hardware and configuration
+* Delay exposure to real traffic
 
 This repository is:
 
-Traffic-first
-
-Protocol-focused
-
-Built for security learners
-
-Centered on understanding, not memorization
-
-
+* **Traffic-first**
+* **Protocol-focused**
+* **Built for cybersecurity learners**
+* **Centered on understanding, not memorization**
 
 ---
 
-🚀 Why This Matters for Cybersecurity
+## 🚀 Why This Matters for Cybersecurity
 
-Strong networking fundamentals are essential for:
+Strong networking fundamentals are critical for:
 
-Detecting malicious traffic
+* Detecting malicious or suspicious traffic
+* Understanding attack paths
+* Investigating packet captures during incidents
+* Building intuition for how attacks move through networks
 
-Understanding attack paths
+This repository exists to build that intuition.
 
-Analyzing packet captures during incidents
-
-Building intuition for how attacks move through networks
-
-
-This repository lays that foundation.
+---
 
 
+Just tell me the direction 🔥
